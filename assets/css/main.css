@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,800");
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  overflow: hidden;
+  background: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff; }
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.logo-github {
+  margin-bottom: 20px; }
+  .logo-github img {
+    width: 100px; }
+
+.subtitle, .title, .below-title, .logo-github {
+  align-self: center; }
+
+.subtitle {
+  position: relative; }
+  .subtitle:before {
+    content: '';
+    width: 300px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    position: absolute;
+    left: -150%;
+    top: 23px; }
+  .subtitle:after {
+    content: '';
+    width: 300px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    position: absolute;
+    right: -150%;
+    top: 23px; }
+
+.below-title {
+  position: relative; }
+  .below-title:before {
+    content: '';
+    width: 350px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    position: absolute;
+    left: -500%;
+    top: 23px; }
+  .below-title:after {
+    content: '';
+    width: 350px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    position: absolute;
+    right: -500%;
+    top: 23px; }
+
+h1 {
+  font-weight: bolder;
+  font-size: 7em; }
+
+h2 {
+  font-weight: lighter;
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.7); }
