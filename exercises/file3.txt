@@ -1,0 +1,5 @@
+You can use that, but typically a host will remove the header 
+for security purposes specific to their implementation. 
+If you aren't just testing the WP REST API, I highly recommend using oAuth. 
+Recently released was the broker and I would highly recommend checking 
+that out as it takes a lot of the detail work out.
