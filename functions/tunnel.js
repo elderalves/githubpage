@@ -1,0 +1,3 @@
+function tunnel() {
+    return true;
+}
